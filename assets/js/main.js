@@ -161,7 +161,8 @@ var typed = new Typed('.home_subtitle_typed', {
 const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',
-    duration: '2000'
+    duration: '2000',
+    reset: 'true'
 });
 
 // SCROLL HOME
@@ -180,6 +181,10 @@ sr.reveal('.skills_content', {delay: 300, interval: 200})
 // // SCROLL QUALIFICATION
 sr.reveal('.qualification_1_l', {delay: 300, interval: 200})
 sr.reveal('.qualification_1_r', {delay: 400, interval: 200})
+
+// SCROLL CONTACT
+sr.reveal('.contact_information', {delay: 300, interval: 200})
+sr.reveal('.contact_form', {delay: 300})
 
 
 // submitHandler 
