@@ -153,7 +153,8 @@ var typed = new Typed('.home_subtitle_typed', {
     strings: ['Programmar', 'Full Stack Developer', 'UI/UX Designer'],
     typeSpeed: 100,
     backSpeed: 50,
-    loop: true
+    loop: true,
+    reset: true
 });
 
 // SCROLLREVEAL JS
@@ -177,8 +178,8 @@ sr.reveal('.skills_content', {delay: 300, interval: 200})
 
 
 // // SCROLL QUALIFICATION
-sr.reveal('.qualification_1_l', {origin: 'left', delay: 300, interval: 200})
-sr.reveal('.qualification_1_r', {origin: 'right', delay: 400, interval: 200})
+sr.reveal('.qualification_1_l', {delay: 300, interval: 200})
+sr.reveal('.qualification_1_r', {delay: 400, interval: 200})
 
 
 // submitHandler 
